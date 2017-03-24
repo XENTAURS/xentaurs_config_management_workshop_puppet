@@ -38,7 +38,7 @@
 class xentaurs_config_management_workshop_puppet {
 
   package { 'httpd':
-    ensure => 'latest'
+    ensure => 'present'
   }
 
   file { '/var/www/html/index.html':

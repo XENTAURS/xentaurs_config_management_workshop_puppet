@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rake'
+gem 'rake', '~> 10.5.0'
 gem 'colorize'
 
 gem 'puppet', '~> 3.7.1'
